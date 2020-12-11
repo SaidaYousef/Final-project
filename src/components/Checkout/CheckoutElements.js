@@ -19,7 +19,7 @@ export const Container1 = styled.div`
     background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)),
     url(${BgPic});
   height: 100vh;
-  background-position: center;
+  background-position: cover;
   `
   
 
