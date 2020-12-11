@@ -59,8 +59,11 @@ export const Btn = styled.div`
     font-size: 16px;
     transition: 0.5s;
     cursor: pointer;
-    margin-bottom:30px;
+    margin-bottom:60px;
     color:white;
+    border-style: solid;
+  border-width: 35px;
+  border-color: #150f0f;
 `
 export const Sdiv = styled.div`
  position:relative;
