@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { NavLink as Link } from 'react-router-dom';
 import { FaPizzaSlice } from 'react-icons/fa';
-import ImgBg from '../../images/pizza-1.jpg';
+
 
 export const Nav = styled.nav`
   background: transparent;
@@ -39,7 +39,7 @@ export const NavIcon = styled.div`
 `;
 
 export const Bars = styled(FaPizzaSlice)`
-  margin-top:-15px;
+  margin-top:-10px;
   font-size: 2rem;
   transform: translate(-50%, -15%);
 `;
