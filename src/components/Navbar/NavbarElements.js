@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import { NavLink as Link } from 'react-router-dom';
 import { FaPizzaSlice } from 'react-icons/fa';
+import ImgBg from '../../images/pizza-1.jpg';
 
 export const Nav = styled.nav`
   background: transparent;
@@ -38,7 +39,7 @@ export const NavIcon = styled.div`
 `;
 
 export const Bars = styled(FaPizzaSlice)`
-  margin-top:18px;
+  margin-top:-15px;
   font-size: 2rem;
   transform: translate(-50%, -15%);
 `;
@@ -59,3 +60,30 @@ float: right;
     font-size: 1rem;
 
 `
+
+
+export const LoginBtn = styled.button`
+   background-color: transparent;
+   display: flex;
+  cursor: pointer;
+  margin-left:30px;
+  padding-right:20px;
+  color: #fff;
+  margin-top:15px;
+   border:none;
+   color:white;
+`
+
+export const SForm = styled.form`
+ margin-top:150px;
+ text-align:center;
+ input {
+   margin-top:10px;
+ }
+ button{
+   margin-top:15px;
+   margin-right:10px;
+   margin-left:10px;
+   width:80px;
+ }
+`;
