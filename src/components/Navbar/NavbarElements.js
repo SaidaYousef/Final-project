@@ -49,7 +49,7 @@ position:absolute;
 color:white;
 font-size:1.3em;
 font-family:sans-serif;
-top:5px;
+top:15px;
 float: right;
     text-align: center;
     border-radius: 50%;
